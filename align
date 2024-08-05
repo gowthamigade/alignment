@@ -1,0 +1,10 @@
+word="Python"
+aligned_word=word=word.center(20,'*')
+print("Center Aligned word:")
+print(aligned_word)
+aligned_word_l=word.ljust(20,'*')
+print("Left Aligned word:")
+print(aligned_word_l)
+aligned_word_r=word.rjust(20,'*')
+print("Right Aligned word:")
+print(aligned_word_r)
